@@ -8,10 +8,10 @@ Pod::Spec.new do |s|
 Hodler plugin enables to send/receive/spend time-locked transactions.
                        DESC
 
-  s.homepage         = 'https://github.com/horizontalsystems/bitcoin-kit-ios'
+  s.homepage         = 'https://github.com/VitaliyYarkun/bitcoin-kit-ios'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Horizontal Systems' => 'hsdao@protonmail.ch' }
-  s.source           = { git: 'https://github.com/horizontalsystems/bitcoin-kit-ios.git', tag: "hodler-#{s.version}" }
+  s.source           = { git: 'https://github.com/VitaliyYarkun/bitcoin-kit-ios', tag: "hodler-#{s.version}" }
   s.social_media_url = 'http://horizontalsystems.io/'
 
   s.ios.deployment_target = '11.0'

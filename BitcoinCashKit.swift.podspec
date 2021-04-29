@@ -8,10 +8,10 @@ Pod::Spec.new do |s|
 BitcoinCashKit implements BitcoinCash protocol in Swift. It is an implementation of the BitcoinCash SPV protocol written (almost) entirely in swift.
                        DESC
 
-  s.homepage         = 'https://github.com/horizontalsystems/bitcoin-kit-ios'
+  s.homepage         = 'https://github.com/VitaliyYarkun/bitcoin-kit-ios'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Horizontal Systems' => 'hsdao@protonmail.ch' }
-  s.source           = { git: 'https://github.com/horizontalsystems/bitcoin-kit-ios.git', tag: "bitcoin-cash-#{s.version}" }
+  s.source           = { git: 'https://github.com/VitaliyYarkun/bitcoin-kit-ios', tag: "bitcoin-cash-#{s.version}" }
   s.social_media_url = 'http://horizontalsystems.io/'
 
   s.ios.deployment_target = '11.0'
